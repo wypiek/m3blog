@@ -1,0 +1,48 @@
+{
+  "name": "m3blog",
+  "version": "0.1.0",
+  "description": "Open source easy to setup and maintain blog engine with Material 3 UI.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node bin/m3blog.js dev",
+    "build": "node bin/m3blog.js build",
+    "new": "node bin/m3blog.js new",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wypiek/m3blog.git"
+  },
+  "keywords": [
+    "blog",
+    "static-site-generator",
+    "material-design",
+    "material-3",
+    "m3-expressive"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wypiek/m3blog/issues"
+  },
+  "homepage": "https://github.com/wypiek/m3blog#readme",
+  "dependencies": {
+    "@material/material-color-utilities": "^0.3.0",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.12.0",
+    "marked": "^18.1.3"
+  },
+  "type": "module",
+  "bin": {
+    "m3blog": "bin/m3blog.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin",
+    "src",
+    "content",
+    "static",
+    "m3blog.config.json"
+  ]
+}

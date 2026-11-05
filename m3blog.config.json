@@ -1,0 +1,32 @@
+{
+  "title": "m3blog",
+  "description": "A blog engine that speaks Material 3 Expressive: dynamic color from one seed, morphing shapes and spring-based motion.",
+  "url": "https://example.com",
+  "basePath": "/",
+  "language": "en",
+  "author": {
+    "name": "m3blog",
+    "bio": "Writing about design, motion and the web. Edit this bio in m3blog.config.json.",
+    "avatar": ""
+  },
+  "postsPerPage": 9,
+  "theme": {
+    "seedColor": "#6750A4",
+    "variant": "tonalSpot",
+    "contrast": 0,
+    "motion": "expressive",
+    "fontBrand": "Roboto Flex",
+    "fontPlain": "Roboto Flex",
+    "googleFonts": true,
+    "logoShape": "cookie9"
+  },
+  "nav": [
+    { "label": "Home", "href": "/", "icon": "home" },
+    { "label": "Archive", "href": "/archive/", "icon": "inventory_2" },
+    { "label": "Tags", "href": "/tags/", "icon": "sell" },
+    { "label": "About", "href": "/about/", "icon": "person" }
+  ],
+  "social": [
+    { "label": "GitHub", "href": "https://github.com/wypiek/m3blog", "icon": "code" }
+  ]
+}
